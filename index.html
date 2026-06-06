@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IThubMinecraft Launcher | Твой портал в игру</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body class="page">
+
+    <section class="section section--hero page__section">
+        <div class="section__bg-glow"></div>
+        
+        <header class="header section__header">
+            <div class="header__container">
+                <img src="assets/logo.svg" alt="Логотип" class="logo header__logo">
+                <span class="header__brand">IThubMinecraft</span>
+            </div>
+        </header>
+
+        <div class="hero section__container">
+            <div class="hero__content">
+                <h1 class="hero__title">Новый уровень <span class="hero__title-highlight">выживания</span></h1>
+                <p class="hero__subtitle">IThubMinecraft Launcher — это легковесный, быстрый и безопасный клиент для игры. Оптимизированный код, мгновенный запуск и умное распределение оперативной памяти.</p>
+                <p class="hero__note">Выберите версию для вашей операционной системы:</p>
+            </div>
+            
+            <div class="download-grid hero__downloads">
+                <div class="download-group download-grid__group">
+                    <h3 class="download-group__title">Windows</h3>
+                    <a href="http://94.156.170.140:5000/api/v1/file/win-x64-Gml.Launcher.exe" download class="button button--windows download-group__button">x64 (64-bit)</a>
+                    <a href="http://94.156.170.140:5000/api/v1/file/win-x86-Gml.Launcher.exe" download class="button button--windows download-group__button">x86 (32-bit)</a>
+                    <a href="http://94.156.170.140:5000/api/v1/file/win-arm64-Gml.Launcher.exe" download class="button button--windows download-group__button">ARM64</a>
+                </div>
+                
+                <div class="download-group download-grid__group">
+                    <h3 class="download-group__title">Linux</h3>
+                    <a href="http://94.156.170.140:5000/api/v1/file/linux-x64-Gml.Launcher" download class="button button--linux download-group__button">x64 (Debian/Ubuntu)</a>
+                    <a href="http://94.156.170.140:5000/api/v1/file/linux-arm-Gml.Launcher" download class="button button--linux download-group__button">ARM (32-bit)</a>
+                    <a href="http://94.156.170.140:5000/api/v1/file/linux-musl-x64-Gml.Launcher" download class="button button--linux download-group__button">Alpine (musl)</a>
+                </div>
+
+                <div class="download-group download-grid__group">
+                    <h3 class="download-group__title">macOS</h3>
+                    <a href="http://94.156.170.140:5000/api/v1/file/osx-arm64-Gml.Launcher" download class="button button--macos download-group__button">Apple Silicon (M1/M2)</a>
+                    <a href="http://94.156.170.140:5000/api/v1/file/linux-musl-x64-Gml.Launcher" download class="button button--macos download-group__button">Intel x64</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--features page__section">
+        <div class="features section__container">
+            <h2 class="section-title features__title">Почему выбирают наш лаунчер?</h2>
+            <p class="section-subtitle features__subtitle">Мы создали инструмент, который берет техническую рутину на себя, оставляя вам только чистое удовольствие от игры.</p>
+
+            <div class="features__grid">
+                <article class="feature-card features__item">
+                    <div class="feature-card__icon">📊</div>
+                    <h3 class="feature-card__title">Встроенная аналитика</h3>
+                    <p class="feature-card__desc">Следите за эффективностью использования ресурсов ПК. Калькулятор производительности автоматически подберет идеальные настройки выделения памяти.</p>
+                </article>
+                <article class="feature-card features__item">
+                    <div class="feature-card__icon">⚙️</div>
+                    <h3 class="feature-card__title">Продвинутый моддинг</h3>
+                    <p class="feature-card__desc">Полная интеграция с Forge и Fabric. Нативная поддержка нестандартных библиотек, включая MelonLoader для управления Il2Cpp-модификациями.</p>
+                </article>
+                <article class="feature-card features__item">
+                    <div class="feature-card__icon">⚔️</div>
+                    <h3 class="feature-card__title">Серверные профили</h3>
+                    <p class="feature-card__desc">Сохраняйте независимые сборки для разных серверов. Один клик — и вы загружаетесь в мир DungeonRealms с нужными конфигами.</p>
+                </article>
+                <article class="feature-card features__item">
+                    <div class="feature-card__icon">📚</div>
+                    <h3 class="feature-card__title">Игровая база знаний</h3>
+                    <p class="feature-card__desc">Доступ к структурированной Вики прямо из меню лаунчера. Встроенные гайды и онбординг для новых игроков.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--support page__section">
+        <div class="support section__container">
+            <div class="support__content">
+                <h2 class="section-title support__title">Штаб технической поддержки</h2>
+                
+                <div class="faq support__faq">
+                    <div class="faq__item">
+                        <h4 class="faq__question">Лаунчер не запускается на Ubuntu 20.04. Что делать?</h4>
+                        <p class="faq__answer">Откройте терминал и убедитесь, что у вас установлена Java 17+. При необходимости выполните `sudo apt install openjdk-17-jre`.</p>
+                    </div>
+                    <div class="faq__item">
+                        <h4 class="faq__question">Как перенести свои миры и базы данных?</h4>
+                        <p class="faq__answer">Лаунчер автоматически импортирует сохранения из стандартной директории .minecraft при первом запуске.</p>
+                    </div>
+                </div>
+
+                <div class="contact-box support__contact">
+                    <h3 class="contact-box__title">Остались нерешенные вопросы?</h3>
+                    <p class="contact-box__text">Наши специалисты помогут настроить клиент, обновить драйвера или разобраться с логами консоли.</p>
+                    <a href="mailto:newlxp@ithub.ru" class="button button--action contact-box__button">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer page__footer">
+            <div class="footer__container">
+                <div class="footer__logo">IThubMinecraft</div>
+                <p class="footer__copyright">© 2026 IThubDev. Разработано с любовью и по БЭМ-методологии.</p>
+                <a href="mailto:newlxp@ithub.ru" class="footer__link">newlxp@ithub.ru</a>
+            </div>
+        </footer>
+    </section>
+
+</body>
+</html>
